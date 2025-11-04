@@ -1,6 +1,6 @@
 # Experiment 8: PL/SQL Cursor Programs
-### Name : P G KUSHALI
-### Reg No : 212223230110
+### Name : YENUGANTI PRATHYUSHA
+### Reg No : 212223240187
 ## AIM
 To write and execute PL/SQL programs using cursors and exception handling to manage runtime errors effectively and display appropriate messages.
 
