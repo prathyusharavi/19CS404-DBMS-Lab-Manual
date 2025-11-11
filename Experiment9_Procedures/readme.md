@@ -78,7 +78,8 @@ EXEC find_square(6);
 **Expected Output:**  
 Square of 6 is 36
 
-![alt text](op1.png)
+<img width="1412" height="734" alt="image" src="https://github.com/user-attachments/assets/7636912b-1538-49f7-b93d-b2025559ad9b" />
+
 
 ---
 
@@ -113,7 +114,8 @@ END;
 **Expected Output:**  
 Factorial of 5 is 120
 
-![alt text](op2.png)
+<img width="1409" height="735" alt="image" src="https://github.com/user-attachments/assets/8fc2ae2c-131f-4d69-9399-3b360cd53358" />
+
 
 ---
 
@@ -144,7 +146,8 @@ EXEC check_even_odd(12);
 **Expected Output:**  
 12 is Even
 
-![alt text](op3.png)
+<img width="1394" height="793" alt="image" src="https://github.com/user-attachments/assets/d8a9aa2f-2375-4a4b-9fba-14f2e401db30" />
+
 
 ---
 
@@ -181,7 +184,8 @@ END;
 **Expected Output:**  
 Reversed number of 1234 is 4321
 
-![alt text](op4.png)
+<img width="1396" height="741" alt="image" src="https://github.com/user-attachments/assets/f78c0daa-b95f-4f2e-b0ce-b63f646e9ab3" />
+
 
 ---
 
@@ -216,7 +220,8 @@ Multiplication table of 5:
 ...  
 5 x 10 = 50
 
-![alt text](op5.png)
+<img width="1395" height="730" alt="image" src="https://github.com/user-attachments/assets/0eaa0c93-9a7b-4c05-a374-3757929ffa42" />
+
 
 ---
 
