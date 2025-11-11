@@ -67,7 +67,8 @@ SELECT * FROM employee_log;
 **Expected Output:**
 - A new entry is added to the `employee_log` table each time a new record is inserted into the `employees` table.
 
-![alt text](op1.png)
+<img width="1405" height="554" alt="image" src="https://github.com/user-attachments/assets/a5f2548d-2458-4fab-a8b0-35522226faa0" />
+
 
 ---
 
@@ -100,7 +101,8 @@ DELETE FROM sensitive_data WHERE id = 1;
 **Expected Output:**
 - If an attempt is made to delete a record from `sensitive_data`, an error message is raised, e.g., `ERROR: Deletion not allowed on this table.`
 
-![alt text](op2.png)
+<img width="1409" height="598" alt="image" src="https://github.com/user-attachments/assets/502d16e6-ccd8-470f-9e6a-a4b2b237de28" />
+
 
 ---
 
@@ -138,8 +140,7 @@ SELECT * FROM products;
 
 **Expected Output:**
 - The `last_modified` column in the `products` table is updated automatically to the current date and time when any record is updated.
-
-![alt text](op3.png)
+<img width="1394" height="636" alt="image" src="https://github.com/user-attachments/assets/79c5a51f-d060-4930-b435-0c29bb345988" />
 
 ---
 
@@ -188,7 +189,7 @@ SELECT * FROM audit_log;
 **Expected Output:**
 - The `audit_log` table will maintain a count of how many updates have been made to the `customer_orders` table.
 
-![alt text](op4.png)
+<img width="1388" height="569" alt="image" src="https://github.com/user-attachments/assets/6d11e0a7-b3cc-469e-820b-4a7cbd8eb528" />
 
 ---
 
@@ -217,13 +218,15 @@ INSERT INTO employees VALUES (203, 'GoodPay', 'Trainee', 3500, 20)
 
 **Expected Output:**
 - If the inserted salary in the `employees` table is below the condition (e.g., salary < 3000), the insert operation is blocked, and an error message is raised, such as: `ERROR: Salary below minimum threshold.`
+<img width="1402" height="639" alt="image" src="https://github.com/user-attachments/assets/254864ae-ec6e-4507-adc9-03e33868719f" />
 
-![alt text](op5-1.png)
 
-![alt text](op5-2.png)
+<img width="1404" height="599" alt="image" src="https://github.com/user-attachments/assets/8ddd8cd5-8991-40c1-80a9-3cab3497e5d4" />
+
 
 ---
 
 ## RESULT
 Thus, the PL/SQL trigger programs were written and executed successfully.
+
 
